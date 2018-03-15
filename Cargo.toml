@@ -1,5 +1,5 @@
 [package]
-name = "clibank"
+name = "bankrs"
 version = "0.1.0"
 authors = ["Sverre Johann Bjørke <sverrejb@gmail.com>"]
 
