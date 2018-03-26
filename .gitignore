@@ -10,3 +10,6 @@
 **/*.rs.bk
 
 .idea/
+
+# API secrets etc
+config.yml
