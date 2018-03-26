@@ -22,8 +22,8 @@ fn main() {
             .short("t")
             .long("transactions")
             .help("Lists n recent transactions")
-            .takes_value(true)
-        .arg(Arg::with_name("bank")))
+            .takes_value(true))
+        .arg(Arg::with_name("bank"))
         .get_matches();
 
     if matches.is_present("balance"){
