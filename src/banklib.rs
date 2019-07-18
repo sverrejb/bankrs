@@ -1,6 +1,9 @@
-pub fn get_balance() -> String{
+extern crate reqwest as req;
+
+pub fn get_balance() -> Result<String, reqwest::Error>{
     let balance = String::from("Balance:");
-    balance
+    let foobar = req::get("https://httpbin.org/ip")?.text();
+    foobar
 }
 
 pub fn get_transactions(number: &str) -> String{

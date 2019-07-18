@@ -8,4 +8,5 @@ name = "banklib"
 path = "src/banklib.rs"
 
 [dependencies]
-clap = "2.30.0"
+clap = "2.33.0"
+reqwest = "0.9.18"
